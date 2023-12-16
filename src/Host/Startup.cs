@@ -6,7 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using YAGO.FantasyWorld.Application.Users;
-using YAGO.FantasyWorld.Application.Users.Interfaces;
 using YAGO.FantasyWorld.Application.WeatherForecastService;
 using YAGO.FantasyWorld.Host.Middlewares;
 using YAGO.FantasyWorld.Infrastructure;
@@ -56,7 +55,7 @@ namespace YAGO.FantasyWorld.Host
 		{
 			services.AddSwaggerGen(c =>
 			{
-				c.SwaggerDoc("v1", new OpenApiInfo { Title = "YAGO Website With Authorization", Version = "v1" });
+				c.SwaggerDoc("v1", new OpenApiInfo { Title = "YAGO Fantasy World", Version = "v1" });
 			});
 		}
 
@@ -66,7 +65,7 @@ namespace YAGO.FantasyWorld.Host
 			app.UseMiddleware<ExceptionMiddleware>();
 
 			app.UseSwagger();
-			app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "YAGO Website With Authorization v1"));
+			app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "YAGO Fantasy World v1"));
 
 			app.UseHttpsRedirection();
 			app.UseStaticFiles();
