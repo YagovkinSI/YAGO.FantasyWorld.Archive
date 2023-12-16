@@ -6,11 +6,11 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Application.Users.Interfaces;
-using YAGO.WebsiteWithAuthorization.Application.Users.Models;
-using YAGO.WebsiteWithAuthorization.Infrastructure.Database.Models;
+using YAGO.FantasyWorld.Application.Users.Interfaces;
+using YAGO.FantasyWorld.Application.Users.Models;
+using YAGO.FantasyWorld.Infrastructure.Database.Models;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Identity
+namespace YAGO.FantasyWorld.Infrastructure.Identity
 {
 	internal class IdentityService : IAuthorizationService
 	{

@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Application.Users;
-using YAGO.WebsiteWithAuthorization.Application.Users.Models;
+using YAGO.FantasyWorld.Application.Users;
+using YAGO.FantasyWorld.Application.Users.Models;
 
-namespace YAGO.WebsiteWithAuthorization.Host.Controllers
+namespace YAGO.FantasyWorld.Host.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]

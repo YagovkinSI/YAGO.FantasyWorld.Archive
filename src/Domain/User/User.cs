@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace YAGO.WebsiteWithAuthorization.Domain.User
+namespace YAGO.FantasyWorld.Domain.User
 {
 	/// <summary>
 	/// Пользователь

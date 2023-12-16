@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Application.WeatherForecastService;
-using YAGO.WebsiteWithAuthorization.Domain.WeatherForecast;
-using YAGO.WebsiteWithAuthorization.Host.Models;
+using YAGO.FantasyWorld.Application.WeatherForecastService;
+using YAGO.FantasyWorld.Domain.WeatherForecast;
+using YAGO.FantasyWorld.Host.Models;
 
-namespace YAGO.WebsiteWithAuthorization.Host.Controllers
+namespace YAGO.FantasyWorld.Host.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]

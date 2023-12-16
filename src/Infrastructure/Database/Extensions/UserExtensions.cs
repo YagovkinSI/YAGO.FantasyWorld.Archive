@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Infrastructure.Database.Models;
+using YAGO.FantasyWorld.Infrastructure.Database.Models;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Database.Extensions
+namespace YAGO.FantasyWorld.Infrastructure.Database.Extensions
 {
 	public static class UserExtensions
 	{

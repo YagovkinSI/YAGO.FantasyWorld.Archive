@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using YAGO.WebsiteWithAuthorization.Infrastructure.Database;
-using YAGO.WebsiteWithAuthorization.Infrastructure.Identity;
+using YAGO.FantasyWorld.Infrastructure.Database;
+using YAGO.FantasyWorld.Infrastructure.Identity;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure
+namespace YAGO.FantasyWorld.Infrastructure
 {
 	public static partial class ServiceCollectionExtensions
 	{

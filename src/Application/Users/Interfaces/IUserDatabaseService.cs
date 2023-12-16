@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Domain.User;
+using YAGO.FantasyWorld.Domain.User;
 
-namespace YAGO.WebsiteWithAuthorization.Application.Users.Interfaces
+namespace YAGO.FantasyWorld.Application.Users.Interfaces
 {
 	/// <summary>
 	/// Сервис работы с данными пользователя

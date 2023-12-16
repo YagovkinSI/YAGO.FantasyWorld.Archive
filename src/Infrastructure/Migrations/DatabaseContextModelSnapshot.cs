@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Database.Migrations
+namespace YAGO.FantasyWorld.Infrastructure.Database.Migrations
 {
 	[DbContext(typeof(DatabaseContext))]
     partial class DatabaseContextModelSnapshot : ModelSnapshot

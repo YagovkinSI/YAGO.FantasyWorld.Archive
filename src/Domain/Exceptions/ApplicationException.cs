@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace YAGO.WebsiteWithAuthorization.Domain.Exceptions
+namespace YAGO.FantasyWorld.Domain.Exceptions
 {
 	/// <summary>
 	/// Ошибка приложения

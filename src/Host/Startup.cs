@@ -5,13 +5,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using YAGO.WebsiteWithAuthorization.Application.Users;
-using YAGO.WebsiteWithAuthorization.Application.Users.Interfaces;
-using YAGO.WebsiteWithAuthorization.Application.WeatherForecastService;
-using YAGO.WebsiteWithAuthorization.Host.Middlewares;
-using YAGO.WebsiteWithAuthorization.Infrastructure;
+using YAGO.FantasyWorld.Application.Users;
+using YAGO.FantasyWorld.Application.Users.Interfaces;
+using YAGO.FantasyWorld.Application.WeatherForecastService;
+using YAGO.FantasyWorld.Host.Middlewares;
+using YAGO.FantasyWorld.Infrastructure;
 
-namespace YAGO.WebsiteWithAuthorization.Host
+namespace YAGO.FantasyWorld.Host
 {
 	public class Startup
 	{

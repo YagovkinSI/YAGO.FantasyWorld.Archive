@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Application.Users.Interfaces;
-using YAGO.WebsiteWithAuthorization.Domain.User;
+using YAGO.FantasyWorld.Application.Users.Interfaces;
+using YAGO.FantasyWorld.Domain.User;
 
-namespace YAGO.WebsiteWithAuthorization.Application.Users
+namespace YAGO.FantasyWorld.Application.Users
 {
 	/// <summary>
 	/// Сервис обновления даты и времени последней активности пользователя
