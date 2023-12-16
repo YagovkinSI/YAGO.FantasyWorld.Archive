@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
-using YAGO.WebsiteWithAuthorization.Application.Users.Interfaces;
-using YAGO.WebsiteWithAuthorization.Infrastructure.Database;
-using YAGO.WebsiteWithAuthorization.Infrastructure.Database.Models;
+using YAGO.FantasyWorld.Application.Users.Interfaces;
+using YAGO.FantasyWorld.Infrastructure.Database;
+using YAGO.FantasyWorld.Infrastructure.Database.Models;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Identity
+namespace YAGO.FantasyWorld.Infrastructure.Identity
 {
 	public static partial class ServiceCollectionExtenstions
 	{

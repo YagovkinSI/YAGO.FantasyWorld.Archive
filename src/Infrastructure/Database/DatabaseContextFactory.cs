@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Database
+namespace YAGO.FantasyWorld.Infrastructure.Database
 {
 	public class DatabaseContextFactory : IDesignTimeDbContextFactory<DatabaseContext>
 	{
-		private const string CONNECTION_STRING = "Server=(localdb)\\mssqllocaldb;Database=YAGO.WebsiteWithAuthorization;Trusted_Connection=True;";
+		private const string CONNECTION_STRING = "Server=(localdb)\\mssqllocaldb;Database=YAGO.FantasyWorld;Trusted_Connection=True;";
 
 		public DatabaseContext CreateDbContext(string[] args)
 		{

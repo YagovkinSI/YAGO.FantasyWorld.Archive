@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace YAGO.WebsiteWithAuthorization.Application.Users.Models
+namespace YAGO.FantasyWorld.Application.Users.Models
 {
 	/// <summary>
 	/// Запрос авторизации

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Domain.WeatherForecast;
+using YAGO.FantasyWorld.Domain.WeatherForecast;
 
-namespace YAGO.WebsiteWithAuthorization.Application.WeatherForecastService
+namespace YAGO.FantasyWorld.Application.WeatherForecastService
 {
 	/// <summary>
 	/// Сервис получения прогноза погоды

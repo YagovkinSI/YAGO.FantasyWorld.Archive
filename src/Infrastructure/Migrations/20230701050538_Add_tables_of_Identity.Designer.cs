@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Database.Migrations
+namespace YAGO.FantasyWorld.Infrastructure.Database.Migrations
 {
 	[DbContext(typeof(DatabaseContext))]
     [Migration("20230701050538_Add_tables_of_Identity")]

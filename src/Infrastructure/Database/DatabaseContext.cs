@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using YAGO.WebsiteWithAuthorization.Infrastructure.Database.Models;
+using YAGO.FantasyWorld.Infrastructure.Database.Models;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Database
+namespace YAGO.FantasyWorld.Infrastructure.Database
 {
 	public partial class DatabaseContext : IdentityDbContext<User>
 	{

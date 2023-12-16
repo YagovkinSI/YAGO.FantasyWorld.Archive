@@ -10,13 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D6620A9-BE58-41F1-A1F4-A2AEEAAB19DF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAGO.WebsiteWithAuthorization.Application", "src\Application\YAGO.WebsiteWithAuthorization.Application.csproj", "{278712E0-B3F7-4CD6-A6D9-14AD59856ACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAGO.FantasyWorld.Application", "src\Application\YAGO.FantasyWorld.Application.csproj", "{278712E0-B3F7-4CD6-A6D9-14AD59856ACC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAGO.WebsiteWithAuthorization.Domain", "src\Domain\YAGO.WebsiteWithAuthorization.Domain.csproj", "{1071530E-CC9A-48E4-AC2C-A09B8CCF4621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAGO.FantasyWorld.Domain", "src\Domain\YAGO.FantasyWorld.Domain.csproj", "{1071530E-CC9A-48E4-AC2C-A09B8CCF4621}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAGO.WebsiteWithAuthorization.Host", "src\Host\YAGO.WebsiteWithAuthorization.Host.csproj", "{4B61BE5B-A25A-4E58-94CF-8A9C17968CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAGO.FantasyWorld.Host", "src\Host\YAGO.FantasyWorld.Host.csproj", "{4B61BE5B-A25A-4E58-94CF-8A9C17968CED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAGO.WebsiteWithAuthorization.Infrastructure", "src\Infrastructure\YAGO.WebsiteWithAuthorization.Infrastructure.csproj", "{B4C84715-C653-4A46-928D-74DB137F8B15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAGO.FantasyWorld.Infrastructure", "src\Infrastructure\YAGO.FantasyWorld.Infrastructure.csproj", "{B4C84715-C653-4A46-928D-74DB137F8B15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

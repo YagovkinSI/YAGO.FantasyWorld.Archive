@@ -1,9 +1,9 @@
 ﻿using System.Security.Claims;
 using System.Threading;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Application.Users.Models;
+using YAGO.FantasyWorld.Application.Users.Models;
 
-namespace YAGO.WebsiteWithAuthorization.Application.Users.Interfaces
+namespace YAGO.FantasyWorld.Application.Users.Interfaces
 {
 	/// <summary>
 	/// Сервис авторизации пользователей

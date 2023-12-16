@@ -1,6 +1,6 @@
-﻿using YAGO.WebsiteWithAuthorization.Domain.User;
+﻿using YAGO.FantasyWorld.Domain.User;
 
-namespace YAGO.WebsiteWithAuthorization.Application.Users.Models
+namespace YAGO.FantasyWorld.Application.Users.Models
 {
 	/// <summary>
 	/// Данные авторизации

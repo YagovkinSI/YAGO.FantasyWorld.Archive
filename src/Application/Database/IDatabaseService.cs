@@ -1,6 +1,6 @@
-﻿using YAGO.WebsiteWithAuthorization.Application.Users.Interfaces;
+﻿using YAGO.FantasyWorld.Application.Users.Interfaces;
 
-namespace YAGO.WebsiteWithAuthorization.Application.Database
+namespace YAGO.FantasyWorld.Application.Database
 {
 	public interface IDatabaseService : IUserDatabaseService
 	{

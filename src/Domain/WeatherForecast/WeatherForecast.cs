@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace YAGO.WebsiteWithAuthorization.Domain.WeatherForecast
+namespace YAGO.FantasyWorld.Domain.WeatherForecast
 {
 	/// <summary>
 	/// Прогноз погоды

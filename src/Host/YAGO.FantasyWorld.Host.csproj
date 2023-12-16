@@ -31,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\YAGO.WebsiteWithAuthorization.Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\YAGO.WebsiteWithAuthorization.Infrastructure.csproj" />
+    <ProjectReference Include="..\Application\YAGO.FantasyWorld.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\YAGO.FantasyWorld.Infrastructure.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

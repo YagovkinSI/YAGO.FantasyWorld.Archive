@@ -2,10 +2,10 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using YAGO.WebsiteWithAuthorization.Application.Database;
-using YAGO.WebsiteWithAuthorization.Domain.User;
+using YAGO.FantasyWorld.Application.Database;
+using YAGO.FantasyWorld.Domain.User;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Database
+namespace YAGO.FantasyWorld.Infrastructure.Database
 {
 	public partial class DatabaseContext : IDatabaseService
 	{

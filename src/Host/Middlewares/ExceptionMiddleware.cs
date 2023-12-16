@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace YAGO.WebsiteWithAuthorization.Host.Middlewares
+namespace YAGO.FantasyWorld.Host.Middlewares
 {
 	public class ExceptionMiddleware
 	{

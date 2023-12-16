@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using YAGO.WebsiteWithAuthorization.Application.Database;
-using YAGO.WebsiteWithAuthorization.Application.Users.Interfaces;
+using YAGO.FantasyWorld.Application.Database;
+using YAGO.FantasyWorld.Application.Users.Interfaces;
 
-namespace YAGO.WebsiteWithAuthorization.Infrastructure.Database
+namespace YAGO.FantasyWorld.Infrastructure.Database
 {
 	public static partial class ServiceCollectionExtensions
 	{

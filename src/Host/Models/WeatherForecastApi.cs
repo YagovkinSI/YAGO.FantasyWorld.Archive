@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace YAGO.WebsiteWithAuthorization.Host.Models
+namespace YAGO.FantasyWorld.Host.Models
 {
 	/// <summary>
 	/// Прогноз погоды
